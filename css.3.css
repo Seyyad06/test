@@ -1,0 +1,35 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+nav a.home:hover {
+    background-color: red;
+}
+
+
+nav a.home {
+    background-color: blue;
+}
+
+nav a.details:hover {
+    transform: scale(2);
+    background-color: #555;
+}
+
+nav a.about {
+    background-color: gray;
+}
+
+nav a.about:hover {
+    background-color: green;
+}
